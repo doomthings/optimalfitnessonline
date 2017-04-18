@@ -74,7 +74,8 @@ p.alone {
   text-align: center;
   
   position: relative;
-  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(http://www.divafit.online/img/erin3.jpg); 
+  /*background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(http://www.divafit.online/img/erin3.jpg); */ 
+  background: black;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -124,7 +125,7 @@ a {
 }
 
 a:hover, a:active {
-    color: #7e00cc;
+    color: #5ab42d;
   text-decoration: none;
 }
 /* --------------------- END LINKS --------------------- */
@@ -140,13 +141,13 @@ a:hover, a:active {
   }
 
 .btn-primary:hover {
-  background-color: #7e00cc;
-  border-color: #7e00cc
+  background-color: #5ab42d;
+  border-color: #5ab42d
 }
 
 .btn-primary:active, .btn-primary:focus {
-  background-color: #7e00cc !important;
-  border-color: #7e00cc !important;
+  background-color: #5ab42d !important;
+  border-color: #5ab42d !important;
 }
 
 .btn-default {
