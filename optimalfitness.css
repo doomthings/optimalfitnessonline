@@ -1,0 +1,223 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+h1.center,h2.center,h3.center,h4.center,h5.center,h6.center {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+p.asterisk {
+  font-style: italic;
+  color: #000;
+}
+p.center {
+  text-align: center;
+}
+p.important{
+  font-weight: bold;
+}
+
+p.contact {
+  font-size: 1.3em;
+}
+p.front-page {
+  text-align: center;
+}
+
+p.button {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+p.alone {
+  margin-right:10%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Nav */
+.navbar-default {
+  background: white;
+  margin:5px;
+  border: solid 1px transparent;
+}
+
+/* Columns */
+.col-md-4 {
+  text-align: justify;
+}
+
+/* ------------------------------------------------------- */
+/* --------------------- BEGIN IMAGES -------------------- */
+.brand {
+  width: 100px;
+}
+.featurette-image {
+  margin: auto;
+  display:block;
+  width: 100%;
+}
+
+/* --------------------- END IMAGES -------------------- */
+/* ----------------------------------------------------- */
+
+/* Jumbotron */
+.jumbotron {
+  text-align: center;
+  
+  position: relative;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(http://www.divafit.online/img/erin3.jpg); 
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+
+
+  color: white;
+
+  padding-top: 10%;
+padding-bottom: 5%;
+}
+
+/* Jumbotron */
+.jumbotron-mini{
+  /*original: 
+  background-image: radial-gradient(circle,#e662ad,#b958c3);
+  */
+  /*background-image: radial-gradient(circle,#05d2ff,#900eff);*/
+    background-image: url(http://www.divafit.online/img/snippet1_3.jpg);
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+    color: #fff;
+    text-align: center;
+      padding-top: 30px;
+    padding-bottom: 30px;
+     text-shadow: 0px 2px 4px rgba(0,0,0,.4); 
+}
+
+hr.custom-rule {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
+/* ------------------------------------------------------- */
+/* --------------------- BEGIN LINKS --------------------- */
+a {
+  color: #66cc33;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #7e00cc;
+  text-decoration: none;
+}
+/* --------------------- END LINKS --------------------- */
+/* ----------------------------------------------------- */
+  
+
+
+/* --------------------------------------------------------- */
+/* --------------------- BEGIN BUTTONS --------------------- */
+.btn-primary {
+  background-color: #66cc33;
+  border-color: #66cc33;
+  }
+
+.btn-primary:hover {
+  background-color: #7e00cc;
+  border-color: #7e00cc
+}
+
+.btn-primary:active, .btn-primary:focus {
+  background-color: #7e00cc !important;
+  border-color: #7e00cc !important;
+}
+
+.btn-default {
+  color: black;
+  background-color: #fff;
+  border-color: #ccc;
+}
+/* --------------------- END BUTTONS --------------------- */
+/* ------------------------------------------------------- */
+
+
+/* ---------------------------------------===-------------- */
+/* --------------------- BEGIN FOOTER --------------------- */
+
+
+footer a {
+  color: white;
+    text-decoration: none;
+}
+
+footer a:hover, a:active {
+  color:#a0a0a0;
+}
+
+p.footer {
+  font-size: 8pt;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-main {
+  background-color:#2e2e2e;
+  width: 100%;
+  margin-top: 50px;
+  text-align: left;
+  padding-top: 30px;
+  color: #a0a0a0;
+}
+
+/* Social */
+
+ul.footer-icons {
+  overflow: auto;
+  padding-left: 0;
+}
+
+ul.footer-icons li {
+  list-style-type: none;
+  float: left;
+}
+
+ul.footer-icons li a i {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+ul.footer-icons li a i:hover {
+  color: #a0a0a0;
+}
+
+/* --------------------- END FOOTER --------------------- */
+/* ------------------------------------------------------ */
+
+/* --------------------------------------------------------------- */
+/* --------------------- BEGIN MEDIA QUERIES --------------------- */
+
+
+@media only screen and (max-width: 500px) {
+  h2 { font-size: 24px; }
+   h3 { font-size: 18px; }
+   h4 { font-size: 14px; }
+}
